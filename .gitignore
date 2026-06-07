@@ -1,0 +1,20 @@
+# Log files - may contain captured device data
+*.txt
+*.log
+serial_test_log.txt
+ps_log.txt
+
+# Python virtual environment
+venv/
+pipa_scripts/
+__pycache__/
+*.pyc
+
+# Anything with potential secrets
+*.key
+*secret*
+*credentials*
+*.env
+
+# OS files
+.DS_Store
