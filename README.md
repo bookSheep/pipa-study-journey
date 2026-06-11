@@ -15,9 +15,25 @@ These tools are shared to document my learning process and should
 only ever be used on devices you own or have explicit permission
 to test.
 
-## What's Inside
+## Study Process for the TCM Security's Practical IoT Pentest Associate Exam
 
-### 01 - Serial Process Logger
+A. Connect my lab TP-Link router to my Kali Linux VM via UART.
+
+  aa. Interrupt the Linux boot process to drop into the U-Bootloader command line 
+
+
+  
+B. Get a root shell  (easy, just press enter..there wasn't any root login)
+C. Enumeration of files + File extraction via TFTP
+  cc. Looking at the bin folder, see what binaries are there. Busybox is there!! https://busybox.net/about.html
+
+D. Analysis
+E. Findings Write up
+
+
+### Automating repetitive tasks with Python:
+
+  ### 01 - Serial Connection Process Logger
 A Python script that connects to an embedded Linux device over UART
 and continuously logs running processes to a file. My first project
 learning `pyserial` and Python automation from scratch.
