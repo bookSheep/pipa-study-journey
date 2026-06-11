@@ -24,6 +24,7 @@ A. Connect my lab TP-Link router to my Kali Linux VM via UART.
 
   
 B. Get a root shell  (easy, just press enter..there wasn't any root login)
+
 C. Enumeration of files + File extraction via TFTP
   cc. Looking at the bin folder, see what binaries are there. Busybox is there!! https://busybox.net/about.html
 
