@@ -29,6 +29,7 @@ C. Enumeration of files + File extraction via TFTP
   cc. Looking at the bin folder, see what binaries are there. Busybox is there!! https://busybox.net/about.html
 
 D. Analysis
+
 E. Findings Write up
 
 
