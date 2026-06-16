@@ -17,7 +17,9 @@ to test.
 
 ## Study Process for the TCM Security's Practical IoT Pentest Associate Exam
 
-A. Connect my lab TP-Link router to my Kali Linux VM via UART.
+A. Connect my lab TP-Link router to my Kali Linux VM via UART:
+
+![WR841N UART setup](https://i.imgur.com/Ym4bkII.jpeg)
 
   aa. Interrupt the Linux boot process to drop into the U-Bootloader command line 
 
