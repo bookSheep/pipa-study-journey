@@ -25,12 +25,15 @@ A. Connect my lab TP-Link router to my Kali Linux VM via UART:
 
 
   
-B. Get a root shell  (easy, just press enter..there wasn't any root login)
+B. Get a root shell  (easy, just press enter..there wasn't any root login, no security there)
 
 C. Enumeration of files + File extraction via TFTP
-  cc. Looking at the bin folder, see what binaries are there. Busybox is there!! https://busybox.net/about.html
+  cc. Looking at the bin folder, see what binaries are there. Busybox is there!! https://busybox.net/about.html But its a tiny version of busybox, so need to get the full version installed on the lab router.
 
 D. Analysis
+
+
+
 
 E. Findings Write up
 
@@ -42,8 +45,10 @@ A Python script that connects to an embedded Linux device over UART
 and continuously logs running processes to a file. My first project
 learning `pyserial` and Python automation from scratch.
 
-### 02 - TFTP BusyBox Setup *(in progress)*
-Automating the transfer of BusyBox tooling onto a test router.
+### 02 - TFTP BusyBox Setup 
+Automating the transfer of BusyBox tooling onto my lab router with python scripts.
+The only utility that was pre-included in this version of Embedded linux was a limited version of Busybox, which had tftp in it.
+So to do better enumeration, (as the course guided) is to use tftp to download the full version of Busybox
 
 ### 03 - Shell Brute Forcer *(in progress)*
 A credential testing tool for understanding why IoT default
@@ -63,4 +68,4 @@ here represents working through the language and the security
 concepts one piece at a time.
 
 
-Will write up the final challenge walkthrough, and then hopefully, pass the exam.
+Will write up the final challenge walkthrough (is this allowed?), and then hopefully, pass the exam.
