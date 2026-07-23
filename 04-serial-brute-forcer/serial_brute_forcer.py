@@ -16,7 +16,6 @@ if b"root" not in response:
     # proceed to brute force
 
 
-then 
 # Load the credential list
 
 credentials = [
