@@ -41,7 +41,8 @@ The flash chip was identified using OSINT before touching any hardware:
 - The datasheet was also used to identify **pin 1 orientation** — pin 1 is marked by a dot on the top-left corner of the chip package
 
 ![Full setup with CH341A programmer and SOIC clip connected to router PCB](https://i.imgur.com/BlPaEi0.jpeg)
-
+---
+*Fun fact: Hudson River Park is a great place : https://hudsonriverpark.org/ *
 ---
 
 ## Extraction Process
