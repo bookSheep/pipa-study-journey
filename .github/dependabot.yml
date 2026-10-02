@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Keep the pinned ruff version (and any other dev deps) current.
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Keep the GitHub Actions used in workflows current (checkout, setup-python).
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

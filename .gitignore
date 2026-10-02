@@ -4,6 +4,9 @@
 serial_test_log.txt
 ps_log.txt
 
+# ...but the pinned CI dependency list must be tracked (overrides *.txt above)
+!requirements-dev.txt
+
 # Python virtual environment
 venv/
 pipa_scripts/
