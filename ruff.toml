@@ -1,2 +1,11 @@
+# The serial brute-forcer is an intentionally unfinished teaching script.
 exclude = ["04-serial-brute-forcer/"]
 
+[lint]
+# Declared explicitly so the active rule set is reproducible and does not
+# shift when ruff's version-default rules change between releases.
+#   E4/E7/E9 + F : ruff's long-standing core (import, statement, syntax, pyflakes)
+#   I            : import sorting / stdlib-vs-third-party grouping (I001)
+#   EXE          : executable-bit / shebang hygiene (EXE002)
+# Intentionally NOT enabled: PIE (e.g. PIE808 redundant range start) -- style nit.
+select = ["E4", "E7", "E9", "F", "I", "EXE"]

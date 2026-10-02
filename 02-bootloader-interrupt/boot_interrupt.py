@@ -15,8 +15,9 @@ U-Boot banner gets printed on every router reboot so I need to differentiate bet
 in a U-boot shell.
 """
 
-import serial
 import time
+
+import serial
 
 port = "/dev/ttyUSB0"
 

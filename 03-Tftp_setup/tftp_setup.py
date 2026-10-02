@@ -2,9 +2,9 @@
 """These commands are to be run on the kali linux vm that the router is connected to via UART
 sudo atftpfd --daemon (this starts the tftp server)
 """
-import serial
 import time
 
+import serial
 
 port = "/dev/ttyUSB0"
 ser = serial.Serial(port, baudrate=115200, bytesize=8,stopbits=serial.STOPBITS_ONE,timeout=1)

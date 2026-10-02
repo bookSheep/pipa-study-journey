@@ -1,8 +1,8 @@
 #Serial connection
 
-import serial
 import time
 
+import serial
 
 #device port
 port = "/dev/ttyUSB0"
