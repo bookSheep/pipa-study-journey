@@ -1,6 +1,6 @@
 # My TCM PIPA Certification Study Journey
 
-This repository documents my hands-on learning as I work toward the **TCM Security Practical IoT Pentest Associate (PIPA)** certification — a self-directed deep dive into hardware and IoT security following my CISSP, built to develop practical offensive skills that complement the certification.
+**Certified — passed the TCM Security Practical IoT Pentest Associate (PIPA) exam in September 2026**, a hands-on hardware/IoT security deep dive I pursued following my CISSP. This repository documents the work that got me there.
 
 Everything here is built from scratch to deepen my understanding of embedded device security, serial/UART communication, firmware analysis, and IoT penetration testing fundamentals.
 
@@ -40,7 +40,7 @@ Automates transferring a full BusyBox binary onto the lab router. The router's e
 ### 03 — Bootloader Interrupt
 A Python script that reboots the router and spams the interrupt command to drop into the locked-down U-Boot CLI — documented as a recon exercise, including the finding that this bootloader's usual functionality is stripped.
 
-### 04 — Serial Console Brute Forcer *(in progress)*
+### 04 — Serial Console Brute Forcer
 A credential-testing tool demonstrating the technique for brute-forcing a serial console login against IoT default credentials.
 
 ### 05 — Firmware Extraction via EPROM Programmer
@@ -49,7 +49,6 @@ Direct chip-off firmware extraction using a CH341A programmer and SOIC clip — 
 ---
 
 ## Tooling & Skills Developed
-
 - Serial/UART communication with embedded devices
 - Python automation for hardware interaction (`pyserial`)
 - Firmware acquisition (TFTP transfer and direct EPROM chip-off)
@@ -62,7 +61,7 @@ Direct chip-off firmware extraction using a CH341A programmer and SOIC clip — 
 
 ## Background
 
-I started this journey knowing PowerShell but no Python. Each project here represents working through the language and the underlying security concepts one piece at a time — learning by building rather than by copying.
+I started this journey knowing PowerShell but no Python. Each project here represents working through the language and the underlying security concepts one piece at a time — learning by doing.
 
 ---
 
